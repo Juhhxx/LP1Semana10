@@ -5,9 +5,7 @@ using System.Threading.Tasks;
 
 namespace PlayerManagerMVC
 {
-    public class UglyView
-    {
-            public class UglyView : IView
+    public class UglyView : IView
     {
         private readonly Controller controller;
         private readonly List<Player> players;
